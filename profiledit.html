@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="profiledit.css">
+    <script src="profiledit.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="nav">
+        <img src="Assets\logo.png" alt="" class="logo">
+    </div>
+
+    <div class="ppcard">
+            <strong><p class="mainhead">Welcome! Let’s create your profile</p></strong>
+            <p class="maindesc">Let others get to know you better! You can do these later too</p>
+
+
+            <form>
+                <strong><label class="name">Name</label></strong>
+                <input type="text" placeholder="First Name" class="nameinp1">
+                <input type="text" placeholder="Last Name" class="nameinp2"><br>
+                <strong><label class="same4">Bio</label></strong>
+                <input type="text" placeholder="Add your Bio" class="bioinp"><br>
+                <strong><label class="same4">Work</label></strong>
+                <input type="text" placeholder="Add Work" class="workinp"><br>
+                <strong><label class="same4">Education</label></strong>
+                <input type="text" placeholder="Add Education" class="eduinp"><br>
+                <strong><label class="same4">Location</label></strong>
+                <input type="text" placeholder="Add Location" class="locinp"><br>
+            </form>
+
+            <div class="rightside">
+                <p class="addprfl">Add Profile Picture</p>
+                <div class="center">
+                    <div class="form-input">
+                        <div class="preview">
+                            <img id="file-ip-1-preview">
+                        </div>
+                        <label for="file-ip-1">Upload Image</label>
+                        <input type="file" id="file-ip-1" accept="image/*" onchange="showPreview(event);">
+                  
+                  
+                    </div>
+                </div>
+
+            </div>
+
+            <a href=""><button type="submit" class="continue">CONTINUE</button></a>
+            <a href=""><strong class="skip">Skip for Now</strong></a>
+
+            
+
+            
+
+            
+
+            
+            
+
+    </div>
+
+</body>
+</html>
