@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    background-color: #F2EEE7;
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  color: unset;
+}
+
+/*nav*/
+
+.nav {
+  display: flex;
+  height: 57.5px;
+
+  background: #FBFBFB;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+
+.dropbtn {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+  width: 0px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 1);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 5px;
+  min-width: 76.88px;
+  left: 57.5px;
+}
+
+.dropdown-content a {
+  color: #1DBF73;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  z-index: 1;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.buyerLink {
+  font-weight: 700;
+  font-size: 13.3333px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.26em;
+
+  color: #1DBF73;
+}
+
+/*seller*/
+
+.sellerDiv {
+    display: flex;
+}
+
+.seller {
+    font-weight: 700;
+    font-size: 13.3333px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.26em;
+
+    color: #1DBF73;
+    margin: 18.33px 3px 19.17px 57.5px;
+}
+
+.seller:hover {
+    cursor: pointer;
+}
+
+.sellerDrop {
+    height: 15.833333015441895px;
+    width: 15.833333015441895px;
+    margin: 20px 440px 21.67px 0px;
+}
+
+.sellerDrop:hover {
+    cursor: pointer;
+}
+
+/*logo*/
+
+.logo {
+    height: 17px;
+    width: 124px;
+    margin: 18.66px 402.5px 20.5px 0px;
+    padding-left: 468px;
+}
+
+/*bell*/
+
+.bell {
+    height: 20px;
+    width: 20px;
+    margin: 18.33px 25px 19.17px 0px;
+}
+
+.bell:hover {
+    cursor: pointer;
+}
+
+/*chat*/
+
+.chat {
+    margin: 18.33px 22.5px 19.17px 0px;
+    height: 20px;
+    width: 20px;
+}
+
+.chat:hover {
+    cursor: pointer;
+}
+
+/*profile*/
+
+.profile {
+    height: 28.33333396911621px;
+    width: 28.33333396911621px;
+    margin: 14.17px 35.5px 15px 0px;
+}
+
+.profile:hover {
+    cursor: pointer;
+}
+
+.navOptions {
+    display: flex;
+}
+
+/*box*/
+
+.box {
+    width: 852px;
+    height: 462px;
+    background: #FBFBFB;
+    border: 0.219803px solid #000000;
+    margin: 23.67px 214px 20px 214px;
+}
+
+.boxName {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    /* identical to box height, or 122% */
+
+    display: flex;
+    align-items: center;
+    margin: 16px 320px 23px 320px;
+    color: #404145;
+}
+
+.boxCont {
+    display: flex;
+}
+
+.boxSide {
+    display: block;
+}
+
+.profileBox {
+    width: 317px;
+    height: 370px;
+    background: #FBFBFB;
+    border: 0.25px solid #000000;
+    margin: 0px 19px 23px 25px;
+}
+
+.profileImg {
+    width: 273px;
+    height: 273px;
+    margin: 20px 22px 7px 22px;
+}
+
+.profileName {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    /* identical to box height */
+
+    margin: 0px 68px 0px 68px;
+    color: #000000;
+}
+
+.profileDesc {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+
+    margin: 0px 109.5px 12px 109.5px;
+    color: #626060;
+}
+
+.bio {
+    width: 449px;
+    height: 233px;
+    left: 583px;
+    top: 159px;
+
+    background: #FBFBFB;
+    border: 0.25px solid #000000;
+}
+
+.bioHead {
+    font-weight: 600;
+    font-size: 16.6718px;
+    line-height: 25px;
+    /* identical to box height */
+
+    margin: 8px 149.34px 4px 21px;
+    color: #4B4B4B;
+}
+
+.bioTxt {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+
+    margin: 0px 12px 2px 23px;
+    color: #4B4B4B;
+}
+
+.userAbout {
+    width: 449px;
+    height: 122px;
+    background: #FBFBFB;
+    border: 0.25px solid #000000;
+    margin: 15px 34px 25px 0px;
+}
+
+.userAbtTxt {
+    display: flex;
+}
+
+.abtIcn {
+    width: 25.01px;
+    height: 25.01px;
+}
+
+.abtIcn1 {
+    margin: 13px 8.34px 11.66px 20px;
+}
+
+.abtIcn2 {
+    margin: 0px 12.36px 12.85px 21.19px;
+}
+
+.abtIcn3 {
+    margin: 0px 9.53px 16.11px 21.19px;
+}
+
+.statDesc {
+    font-weight: 500;
+    font-size: 16.6718px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #4B4B4B;
+}
+
+.statDesc1 {
+    margin: 13px 117px 9.53px 0px;
+}
+
+.statDesc2 {
+    margin: 0px 117px 9.53px 0px;
+}
+
+.statDesc3 {
+    margin: 0px 117px 14.93px 0px;
+}
+
+/*footer*/
+
+.footer {
+    height: 285.1666564941406px;
+    width: 1263px;
+    background: #FBFBFB;
+  }
+  
+  .ftrTop {
+    display: flex;
+    height: 230.67px;
+  }
+  
+  .ftrBot {
+    display: flex;
+    height: 0;
+  }
+  
+  .category {
+    width: 164.1666717529297px;
+  
+    margin: 0px 125.83px 23.33px 74.17px;
+  }
+  
+  .ftrHead {
+    font-weight: 700;
+    font-size: 13.545px;
+    line-height: 19px;
+    /* or 140% */
+  
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 23.33px 0px;
+    color: #404145;
+    padding-top: 27.5px;
+  }
+  
+  .ftrTxt {
+    font-weight: 400;
+    font-size: 13.545px;
+    line-height: 20px;
+    /* or 150% */
+  
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+    color: #74767E;
+  }
+  
+  .about {
+    width: 94.61px;
+    margin: 0px 126.23px 91.65px 0px;
+  }
+  
+  .ftrHead1 {
+    font-weight: 700;
+    font-size: 13.545px;
+    line-height: 19px;
+    /* or 140% */
+  
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 23.33px 0px;
+    color: #404145;
+    padding-top: 27.5px;
+  }
+  
+  .ftrTxt1 {
+    font-weight: 400;
+    font-size: 13.545px;
+    line-height: 20px;
+    /* or 150% */
+  
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+    color: #74767E;
+  }
+  
+  a {
+  
+    text-decoration: none;
+    color: unset; 
+  }
+  
+  /*support*/
+  
+  .support {
+    margin: 0px 125.83px 91.65px 0px;
+  }
+  
+  .community {
+    margin: 0px 125.83px 24.17px 0px;
+  }
+  
+  .more {
+    margin: 0px 77.5px 91.67px 0px;
+  }
+  
+  .ftrLine {
+    background: rgba(124, 41, 221, 0.4);
+    width: 1131.0052490234375px;
+    margin: 0px 74.5px 10px 74.5px;
+  }
+  
+  .ftrMid {
+    margin-bottom: 17px;
+  }
+  
+  .media {
+    display: flex;
+    margin-left: 22px;
+  }
+  
+  .ftrLogo {
+    height: 18.66666603088379px;
+    width: 128.3333282470703px;
+    margin: 0px 712.53px 26.84px 75.83px;
+  }
+  
+  .mediaLogo {
+    height: 16.931217193603516px;
+    width: 16.931217193603516px;
+    margin: 0px 23.7px 28.03px 0px;
+  }
+  
+  .translate {
+    display: flex;
+  }
+  
+  .langImg {
+    height: 13.54497241973877px;
+    width: 13.54497241973877px;
+    margin: 1px 6.77px 30.57px 0px;
+  }
+  
+  .lang {
+    font-weight: 700;
+    font-size: 11.8519px;
+    line-height: 18px;
+    /* or 150% */
+    width: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #7C29DD;
+    margin: 8px 0px 31.84px 0px;
+  }

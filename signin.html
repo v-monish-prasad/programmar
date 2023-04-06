@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="signin.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="nav">
+        <img src="Assets\logo.png" alt="" class="logo">
+    </div>
+
+    <div class="signincard">
+        
+        <div class="leftimgbg">
+            <img src="Assets\leftimg.svg" alt="" class="leftimg">
+            <p class="leftimgtxt">Discover the world’s best <br>Developers in one place.</p>
+            <img src="Assets\logoleft.svg" alt="" class="logoleft">
+        </div>
+        
+        <div class="rightimgbg">
+            <p class="signin">Sign in to Programmar</p>
+
+            <form action="signIn.php" method="post">       
+                <input type="email" placeholder="Email" class="emailsignup" name="email" id="email" required>           
+                <input type="password" placeholder="Password" class="pswdsignup" name="pw" id="pw" required>
+
+                <a href=""><p class="fgtpswd">Forgot password?</p></a>
+                <button type="submit" class="signupbtn">SIGN IN</button>
+                <!--<a href="profiledit.html"></a>-->
+            </form>
+                   
+                
+            <p class="haveacc">Don't have a account?</p>
+            <a href="signup.html"><button type="button" class="signup">SIGN UP</button></a>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

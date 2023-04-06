@@ -1,0 +1,308 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    background-color: #F2EEE7;
+}
+
+.nav {
+    display: flex;
+    height: 57.5px;
+
+    background: #FBFBFB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+
+
+.logo {
+    height: 17px;
+    width: 124px;
+    margin: 18.66px auto 20.5px auto;
+}
+
+.signincard{
+    
+        left: 214px;
+        top: 83px;
+        width: 852px;
+        height: 505px;
+        display: flex;
+        position: absolute;
+        border-color: rgba(0, 0, 0, 1);
+        border-style: solid;
+        border-width: 0.21980255842208862px;
+        background-size: cover;
+        background-position: center;
+        background: #FBFBFB;
+
+
+}
+
+.leftimgbg{
+    
+    width: 393px;
+    height: 505px;
+    left: -1px;
+    top: 38px;
+
+    background: #322741;
+    border: 0.25px solid #000000;
+}
+
+.leftimg{
+    position: absolute;
+    height: 365.7px;
+    left: 0%;
+    right: 0%;
+    bottom: 25.58px;
+}
+
+.leftimgtxt{
+    position: absolute;
+    height: 51.86px;
+    left: 5.32%;
+    right: 66.69%;
+    top: 87.4px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.1148px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #9F83C6;
+    /* padding: 0px; */
+    width: auto;
+}
+
+.logoleft{
+    position: absolute;
+    width: 147.9px;
+    height: 29.37px;
+    left: 44.41px;
+    top: 52.52px;
+
+}
+
+.rightimgbg{
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 460px;
+    height: 505px;
+    left: 606px;
+    top: 96px;
+    background: #FBFBFB;
+    border: 0.25px solid #000000;
+}
+
+.signup{
+    /* position: absolute; */
+    width: 345.42px;
+    height: 23.51px;
+    /* left: 663px; */
+    margin: 105px auto auto auto;
+    /* top: 339px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.1805px;
+    line-height: 26px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #343434;
+}
+
+.unamesignup{
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 255px;
+    margin: 26px auto auto auto;
+    height: 29.39px;
+    left: 710.02px;
+    top: 220.28px;
+    border: 0.452119px solid #000000;
+    border-radius: 3.16483px;
+    display: flex;
+    padding: 0 21px;
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-size: 10.7px;
+line-height: 16px;
+
+}
+
+.emailsignup{
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 255px;
+    margin: 8px auto auto auto;
+    height: 29.39px;
+    left: 710.02px;
+    top: 220.28px;
+    border: 0.452119px solid #000000;
+    border-radius: 3.16483px;
+    display: flex;
+    padding: 0 21px;
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-size: 10.7px;
+line-height: 16px;
+
+}
+
+.pswdsignup{
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 255px;
+    margin: 8px auto auto auto;
+    height: 29.39px;
+    left: 710.02px;
+    top: 220.28px;
+    border: 0.452119px solid #000000;
+    border-radius: 3.16483px;
+    display: flex;
+    padding: 0 21px;
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-size: 10.7px;
+line-height: 16px;
+
+}
+
+.fgtpswd{    
+    width: 89px;
+    height: 15px;
+    left: 882.73px;
+    margin: 8px 100px auto auto;
+    top: 337.28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.94662px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #6F74DD;
+}
+
+.signupbtn{
+    width: 259.06px;
+    height: 28.94px;
+    /* left: 622.95px; */
+    top: 372.65px;
+    background: #3F7EEB;
+    border-radius: 2px;
+    margin: 20px auto auto 100px;
+    border: none;
+
+    font-family: 'Poppins';
+font-style: normal;
+font-size: 10.3987px;
+line-height: 16px;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+.orpng{
+    width: 155.08px;
+    height: 15px;
+    left: 761.11px;
+    top: 406.91px;
+    margin: 5px auto auto auto;
+    display: flex;
+}
+
+.glbtn{
+    width: 259.06px;
+    height: 28.94px;
+    left: 705.95px;
+    top: 428.26px;
+    background-color: #FBFBFB;
+    border: 0.452119px solid #3949AB;
+    border-radius: 2px;
+    margin: 5px auto auto auto;
+    display: list-item;
+}
+
+.google{
+    width: 259.06px;
+    /* height: 28.94px; */
+    /* left: 705.95px; */
+    top: 428.26px;
+    margin: auto 6px auto auto;
+}
+
+.haveacc{
+    width: 85px;
+    height: 15px;
+    left: 796.25px;
+    top: 470.21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.94662px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #767676;
+    margin: 13px auto auto auto;
+}
+
+.sp{
+    color: #FFFFFF;
+
+}
+
+.signin{
+
+width: 259.06px;
+height: 28.94px;
+left: 705.95px;
+top: 498.33px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 10.3987px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #3949AB;
+
+width: 259.06px;
+height: 28.94px;
+left: 705.95px;
+top: 428.26px;
+background-color: #FBFBFB;
+border: 0.452119px solid #3949AB;
+border-radius: 2px;
+margin: 11px auto auto auto;
+display: list-item;
+}
+
+.fa-user-large{
+
+width: 10.4px;
+height: 11.7px;
+}
